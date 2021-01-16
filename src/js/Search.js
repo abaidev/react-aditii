@@ -38,10 +38,8 @@ function getItems(tovar) {
    //    .then((response) => response.json())
    //    .then((data)=> {
          let product = tovar.toLowerCase();
-         // console.log(product);
          let foundItems = [];
          for (let item of data){
-            console.log(`ITEM: ${item.title.indexOf(product)}`);
             if (item.name === product || item.price === product
                 || item.articul === product || item.color === product
                 || item.title.toLowerCase() === product || item.title.indexOf(product) > -1
