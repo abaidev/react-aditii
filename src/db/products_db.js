@@ -1,0 +1,250 @@
+let data = [
+    {
+        "name": "wallet",
+        "title": "Louis Vuitton",
+        "src": "content/wallet - lui.png",
+        "articul": "000111",
+        "price": "950",
+        "color": "brown",
+        "size": 12,
+        "sale": false
+    },
+    {
+        "name": "wallet",
+        "title": "Hermes",
+        "src": "content/wallet - 02.png",
+        "articul": "000112",
+        "price": "850",
+        "color": "bardo",
+        "size": 12,
+        "sale": true
+    },
+    {
+        "name": "wallet",
+        "title": "Goyard",
+        "src": "content/wallet - 03.png",
+        "articul": "000113",
+        "price": "1020",
+        "color": "dark brown",
+        "size": 16,
+        "sale": true
+    },
+    {
+        "name": "wallet",
+        "title": "Tom Ford",
+        "src": "content/wallet - 04.png",
+        "articul": "000114",
+        "price": "1020",
+        "color": "grey",
+        "size": 16,
+        "sale": false
+    },
+    {
+        "name": "wallet",
+        "title": "Dior Homme",
+        "src": "content/wallet - 05.png",
+        "articul": "000115",
+        "price": "800",
+        "color": "brown",
+        "size": 12,
+        "sale": true
+    },
+    {
+        "name": "wallet",
+        "title": "Gucci",
+        "src": "content/wallet - 06.png",
+        "articul": "000116",
+        "price": "1850",
+        "color": "brown",
+        "size": 12,
+        "sale": false
+    },
+
+
+    {
+        "name": "shirt",
+        "title": "Nike",
+        "src": "content/shirt - 01.jpg",
+        "articul": "200211",
+        "price": "1850",
+        "color": "white",
+        "size": 15,
+        "sale": true
+    },
+    {
+        "name": "shirt",
+        "title": "Adidas",
+        "src": "content/shirt - 02.webp",
+        "articul": "200212",
+        "price": "203",
+        "color": "white",
+        "size": 15,
+        "sale": false
+    },
+    {
+        "name": "shirt",
+        "title": "Tommy Hilfiger",
+        "src": "content/shirt - 03.jpg",
+        "articul": "200213",
+        "price": "307",
+        "color": "dark blue",
+        "size": 14,
+        "sale": true
+    },
+    {
+        "name": "shirt",
+        "title": "Ralph Lauren",
+        "src": "content/shirt - 04.jpg",
+        "articul": "200214",
+        "price": "195",
+        "color": "white",
+        "size": 15,
+        "sale": false
+    },
+    {
+        "name": "shirt",
+        "title": "Lacoste",
+        "src": "content/shirt - 05.jpg",
+        "articul": "200215",
+        "price": "99",
+        "color": "grey",
+        "size": 15,
+        "sale": true
+    },
+    {
+        "name": "shirt",
+        "title": "Gucci",
+        "src": "content/shirt - 06.jpg",
+        "articul": "200216",
+        "price": "120",
+        "color": "grey black",
+        "size": 15,
+        "sale": true
+    },
+
+
+    {
+        "name": "shoes",
+        "title": "Nike",
+        "src": "content/shoes - 01.jpg",
+        "articul": "300311",
+        "price": "85",
+        "color": "grey black",
+        "size": 15,
+        "sale": true
+    },
+    {
+        "name": "shoes",
+        "title": "Adidas",
+        "src": "content/shoes - 02.jpg",
+        "articul": "300312",
+        "price": "76",
+        "color": "dark blue",
+        "size": 14,
+        "sale": false
+    },
+    {
+        "name": "shoes",
+        "title": "New Balance",
+        "src": "content/shoes - 03.jpg",
+        "articul": "300313",
+        "price": "91",
+        "color": "dark grey",
+        "size": 16,
+        "sale": false
+    },
+    {
+        "name": "shoes",
+        "title": "ASICS",
+        "src": "content/shoes - 04.jpg",
+        "articul": "300314",
+        "price": "98",
+        "color": "white",
+        "size": 16,
+        "sale": true
+    },
+    {
+        "name": "shoes",
+        "title": "Nike",
+        "src": "content/shoes - 05.jpg",
+        "articul": "300315",
+        "price": "104",
+        "color": "dark red black",
+        "size": 16,
+        "sale": false
+    },
+    {
+        "name": "shoes",
+        "title": "Skechers",
+        "src": "content/shoes - 06.jpg",
+        "articul": "300316",
+        "price": "99",
+        "color": "grey blue oceanic",
+        "size": 16,
+        "sale": false
+    },
+
+
+    {
+        "name": "coat",
+        "title": "Belstaff",
+        "src": "content/coat - 01.jpg",
+        "articul": "400411",
+        "price": "230",
+        "color": "dark blue",
+        "size": 16,
+        "sale": false
+    },
+    {
+        "name": "coat",
+        "title": "Acne Studios",
+        "src": "content/coat - 02.jpg",
+        "articul": "400412",
+        "price": "300",
+        "color": "dark grey",
+        "size": 16,
+        "sale": true
+    },
+    {
+        "name": "coat",
+        "title": "Uniqlo",
+        "src": "content/coat - 03.webp",
+        "articul": "400413",
+        "price": "208",
+        "color": "black",
+        "size": 16,
+        "sale": false
+    },
+    {
+        "name": "coat",
+        "title": "Burberry",
+        "src": "content/coat - 04.jpg",
+        "articul": "400414",
+        "price": "250",
+        "color": "grey silver",
+        "size": 16,
+        "sale": false
+    },
+    {
+        "name": "coat",
+        "title": "Moncler",
+        "src": "content/coat - 05.jpg",
+        "articul": "400415",
+        "price": "410",
+        "color": "brown",
+        "size": 16,
+        "sale": false
+    },
+    {
+        "name": "coat",
+        "title": "North Face",
+        "src": "content/coat - 06.jpg",
+        "articul": "400416",
+        "price": "520",
+        "color": "brown white",
+        "size": 16,
+        "sale": false
+    }
+];
+
+export default data;
